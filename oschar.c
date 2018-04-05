@@ -11,7 +11,7 @@ MODULE_LICENSE("GPL");
 
 #define BUFFER_SIZE 1024
 
-static char deviceString[BUFFER_SIZE] = {0};
+char deviceString[BUFFER_SIZE] = {0};
 static short size = 0 ;
 static int numberOpens = 0;
 
